@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "eg3.xsl"?>
+
+<dcc:digitalCalibrationCertificate
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dcc="https://ptb.de/dcc"
+	xmlns:si="https://ptb.de/si"
+    xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v3.1.2/dcc.xsd"
+	xsi:noNamespaceSchemaLocation="dcc.xsd"
+    schemaVersion="3.1.2">
+	<dcc:administrativeData>
+		<dcc:dccSoftware>
+			<dcc:software>
+				<dcc:name>
+					<dcc:content>Microsoft Visual Studio Community 2022 (64-bit) </dcc:content>
+				</dcc:name>
+				<dcc:release>v 17.1.0</dcc:release>
+			</dcc:software>
+		</dcc:dccSoftware> 
+		<dcc:coreData>
+			<dcc:countryCodeISO3166_1>IN</dcc:countryCodeISO3166_1>
+			<dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
+			<dcc:mandatoryLangCodeISO639_1>en</dcc:mandatoryLangCodeISO639_1>
+			<!--the unique ID can be the calibration certificate number  -->
+			<dcc:uniqueIdentifier>N21080387/D6.02c/C-06</dcc:uniqueIdentifier>
+			<dcc:identifications>
+				<dcc:identification>
+					<dcc:issuer>calibrationLaboratory</dcc:issuer>
+					<dcc:value>string-calibrationLaboratory-coreData</dcc:value>
+					<dcc:name>
+						<dcc:content lang="en">Order no.N21080387</dcc:content>
+					</dcc:name>
+				</dcc:identification>
+			</dcc:identifications>
+			<dcc:beginPerformanceDate>2021-09-21</dcc:beginPerformanceDate>
+			<dcc:endPerformanceDate>2021-09-21</dcc:endPerformanceDate>
+			<dcc:performanceLocation>laboratoryBranch</dcc:performanceLocation>
+		</dcc:coreData>
+		<dcc:items>
+			<dcc:item>
+				<dcc:name>
+					<dcc:content lang="en">DC Reference Standard</dcc:content>
+				</dcc:name>
+				<dcc:manufacturer>
+					<dcc:name>
+						<dcc:content>String</dcc:content>
+					</dcc:name>
+				</dcc:manufacturer>
+				<dcc:model>732B</dcc:model>
+				<dcc:identifications>
+					<dcc:identification>
+						<dcc:issuer>manufacturer</dcc:issuer>
+						<dcc:value>string-manufacturer-item</dcc:value>
+						<dcc:name>
+							<dcc:content lang="en">Serial no.9130702</dcc:content>
+						</dcc:name>
+					</dcc:identification>
+					<dcc:identification>
+						<dcc:issuer>customer</dcc:issuer>
+						<dcc:value>string-customer-item</dcc:value>
+						<dcc:name>
+							<dcc:content lang="en">Measurement equipment no.</dcc:content>
+						</dcc:name>
+					</dcc:identification>
+					<dcc:identification>
+						<dcc:issuer>calibrationLaboratory</dcc:issuer>
+						<dcc:value>string-calibrationLaboratory-item</dcc:value>
+						<dcc:name>
+							<dcc:content lang="en">Equipment no.</dcc:content>
+						</dcc:name>
+					</dcc:identification>
+				</dcc:identifications>
+			</dcc:item>
+		</dcc:items>
+		
+		<dcc:calibrationLaboratory>
+			<dcc:contact>
+				<dcc:name>
+					<dcc:content>CSIR-NATIONAL PHYSICAL LABORATORY</dcc:content>
+				</dcc:name>
+				<dcc:eMail>cfct@nplindia.org</dcc:eMail>
+				<dcc:phone>+91 11 45608441</dcc:phone>
+				<dcc:fax>+91 11 45608448</dcc:fax>
+				<dcc:location>
+					<dcc:city>New Delhi</dcc:city>
+					<dcc:countryCode>IN</dcc:countryCode>
+					<dcc:postCode>110012</dcc:postCode>
+					<dcc:street>Dr K S Krishnan Marg</dcc:street>
+					<!--<dcc:streetNo>1</dcc:streetNo>-->
+					<dcc:further>
+						<dcc:content>www.nplindia.org</dcc:content>
+					</dcc:further>
+				</dcc:location>
+			</dcc:contact>
+		</dcc:calibrationLaboratory>
+
+		<dcc:respPersons>
+			<dcc:respPerson>
+				<dcc:person>
+					<dcc:name>
+						<dcc:content>Dr Sushil Kumar</dcc:content>
+					</dcc:name>
+					<dcc:eMail>skumar@nplindia.org</dcc:eMail>
+					<!-- <dcc:description>Head CFCT</dcc:description> -->
+				</dcc:person>
+				<dcc:mainSigner>true</dcc:mainSigner>
+			</dcc:respPerson>
+			<dcc:respPerson>
+				<dcc:person>
+					<dcc:name>
+						<dcc:content>Sandhya M. Patel</dcc:content>
+						<!-- <dcc:description>Calibrated by</dcc:description> -->
+					</dcc:name>
+				</dcc:person>
+			</dcc:respPerson>
+			<dcc:respPerson>
+				<dcc:person>
+					<dcc:name>
+						<dcc:content>Saood Ahmad</dcc:content>
+						<!-- <dcc:description>Checked by</dcc:description> -->
+					</dcc:name>
+				</dcc:person>
+			</dcc:respPerson>
+			<dcc:respPerson>
+				<dcc:person>
+					<dcc:name>
+						<dcc:content>Anurag Gupta</dcc:content>
+						<!-- <dcc:description>Scientist-in-Charge</dcc:description> -->
+					</dcc:name>
+				</dcc:person>
+			</dcc:respPerson>
+		</dcc:respPersons>
+
+		<dcc:customer>
+			<dcc:name>
+				<dcc:content>LF, HF Impedance and DC Metrology Section, CSIR-NATIONAL PHYSICAL LABORATORY</dcc:content>
+			</dcc:name>
+			<dcc:eMail></dcc:eMail>
+			<dcc:location>
+				<dcc:city>New Delhi</dcc:city>
+				<dcc:countryCode>IN</dcc:countryCode>
+				<dcc:postCode>110012</dcc:postCode>
+				<dcc:further>
+					<dcc:content lang="en">Customer Reference note dated 15-07-2021</dcc:content>
+				</dcc:further>
+			</dcc:location>
+		</dcc:customer>
+
+		<dcc:statements>
+			<dcc:statement refType="basic_conformity">
+				<dcc:declaration>
+					<dcc:content lang="en">The conformity statement is made on the basis of the customer's specifications. They are listed in the DCC.</dcc:content>
+				</dcc:declaration>
+				<dcc:respAuthority>
+					<dcc:name>
+						<dcc:content>CSIR-NATIONAL PHYSICAL LABORATORY</dcc:content>
+					</dcc:name>
+					<dcc:eMail>cfct@nplindia.org</dcc:eMail>
+					<dcc:location>
+						<dcc:city>New Delhi</dcc:city>
+						<dcc:postCode>110012</dcc:postCode>
+						<dcc:countryCode>IN</dcc:countryCode>
+					</dcc:location>
+				</dcc:respAuthority>
+				<dcc:conformity>pass</dcc:conformity>
+			</dcc:statement>
+			<dcc:statement refType="basic_recalibration">
+				<dcc:declaration>
+					<dcc:content lang="en">Date when the calibration item is to be recalibrated at the latest according to the customer's specification:</dcc:content>
+				</dcc:declaration>
+				<dcc:date>2022-03-21</dcc:date>
+				<dcc:respAuthority>
+					<dcc:name>
+						<dcc:content>CSIR-NATIONAL PHYSICAL LABORATORY</dcc:content>
+					</dcc:name>
+					<dcc:eMail>cfct@nplindia.org</dcc:eMail>
+					<dcc:location>
+						<dcc:city>New Delhi</dcc:city>
+						<dcc:postCode>110012</dcc:postCode>
+						<dcc:countryCode>IN</dcc:countryCode>
+					</dcc:location>
+				</dcc:respAuthority>
+			</dcc:statement>
+		</dcc:statements>
+
+	</dcc:administrativeData>
+	<dcc:measurementResults>
+		<dcc:measurementResult>
+			<dcc:name>
+				<dcc:content lang="en">Measurement results</dcc:content>
+			</dcc:name>
+			<dcc:usedMethods>
+				<dcc:usedMethod refType="Comparison Method">
+					<dcc:name>
+						<dcc:content lang="en">Calibration of DC Reference Standard</dcc:content>
+					</dcc:name>
+				</dcc:usedMethod>
+			</dcc:usedMethods>
+			<dcc:measuringEquipments>
+				<dcc:measuringEquipment refType="basic_normalUsed">
+					<dcc:name>
+						<dcc:content lang="en">Programmable Josephson Voltage Standard</dcc:content>
+					</dcc:name>
+					<dcc:identifications>
+						<dcc:identification>
+							<dcc:issuer>manufacturer</dcc:issuer>
+							<dcc:value>string-manufacturer-measuringEquipment-1</dcc:value>
+						</dcc:identification>
+					</dcc:identifications>
+				</dcc:measuringEquipment>
+			</dcc:measuringEquipments>
+
+			<dcc:influenceConditions>
+				<dcc:influenceCondition refType="basic_temperature">
+					<dcc:name>
+						<dcc:content lang="de">Umgebungsbedingung Temperatur</dcc:content>
+						<dcc:content lang="en">(25±1)C</dcc:content>
+					</dcc:name>
+					<dcc:description>
+						<dcc:content lang="en">These values were not measured, but were given based on typical weather conditions at a time of year. [^1]</dcc:content>
+					</dcc:description>
+					<dcc:data>
+						<dcc:quantity refType="basic_temperatureMin">
+							<dcc:name>
+								<dcc:content lang="en">Temperature min</dcc:content>
+							</dcc:name>
+							<si:real>
+								<si:value>24</si:value>
+								<si:unit>\degreecelsius</si:unit>
+							</si:real>
+						</dcc:quantity>
+						<dcc:quantity refType="basic_temperatureMax">
+							<dcc:name>
+								<dcc:content lang="en">temperature max</dcc:content>
+							</dcc:name>
+							<si:real>
+								<si:value>26</si:value>
+								<si:unit>\degreecelsius</si:unit>
+							</si:real>
+						</dcc:quantity>
+					</dcc:data>
+				</dcc:influenceCondition>
+				<dcc:influenceCondition refType="basic_humidityRelative">
+					<dcc:name>
+						<dcc:content lang="en">Ambient condition relative humidity</dcc:content>
+					</dcc:name>
+					<dcc:description>
+						<dcc:content lang="en">These values were not measured, but were given based on typical weather conditions at a time of year. [^1]</dcc:content>
+					</dcc:description>
+					<dcc:data>
+						<dcc:quantity refType="basic_humidityRelativeMin">
+							<dcc:name>
+								<dcc:content lang="en">humidity min</dcc:content>
+							</dcc:name>
+							<si:real>
+								<si:value>40</si:value>
+								<si:unit>\one</si:unit>
+							</si:real>
+						</dcc:quantity>
+						<dcc:quantity refType="basic_humidityRelativeMax">
+							<dcc:name>
+								<dcc:content lang="en">humidity max</dcc:content>
+							</dcc:name>
+							<si:real>
+								<si:value>60</si:value>
+								<si:unit>\one</si:unit>
+							</si:real>
+						</dcc:quantity>
+					</dcc:data>
+				</dcc:influenceCondition>
+			</dcc:influenceConditions>
+			
+			<dcc:results>
+				<dcc:result refType="gp_measuringResult1">
+					<dcc:name>
+						<dcc:content lang="en">Measuring results</dcc:content>
+					</dcc:name>
+					<dcc:data>
+						<dcc:list refType="gp_table1">
+							<dcc:quantity refType="basic_referenceValue">
+								<dcc:name>
+									<dcc:content lang="en">Reference value</dcc:content>
+								</dcc:name>
+								<!-- <si:hybrid> -->
+								<si:realListXMLList>
+									<si:valueXMLList> 10.0 1.018  </si:valueXMLList>
+									<si:unitXMLList> \volt </si:unitXMLList>
+								</si:realListXMLList>
+								<!-- <si:realListXMLList><si:valueXMLList> 33.098 99.971 175.103 250.169 320.004 </si:valueXMLList><si:unitXMLList>\degreecelsius</si:unitXMLList></si:realListXMLList></si:hybrid> -->
+							</dcc:quantity>
+							<dcc:quantity refType="basic_measuredValue">
+								<dcc:name>
+									<dcc:content lang="en">Indicated measured value probe</dcc:content>
+								</dcc:name>
+								<si:hybrid>
+									<si:realListXMLList>
+										<si:valueXMLList>10.00003835 1.01815396</si:valueXMLList>
+										<si:unitXMLList>\volt</si:unitXMLList>
+									</si:realListXMLList>
+									<!--<si:realListXMLList><si:valueXMLList>33.17 100.06 175.21 250.16 319.92</si:valueXMLList><si:unitXMLList>\degreecelsius</si:unitXMLList></si:realListXMLList>-->
+								</si:hybrid>
+							</dcc:quantity>
+							<dcc:quantity refType="basic_measurementError">
+								<dcc:name>
+									<dcc:content lang="en">Measurement error</dcc:content>
+								</dcc:name>
+								<si:realListXMLList>
+									<si:valueXMLList>0.00003835 0.00015396</si:valueXMLList>
+									<si:unitXMLList>\volt</si:unitXMLList>
+									<si:expandedUncXMLList>
+										<!-- <si:uncertaintyXMLList>0.000000091</si:uncertaintyXMLList> -->
+										<si:uncertaintyXMLList>0.000000091 0.000000086</si:uncertaintyXMLList>
+										<si:coverageFactorXMLList>2</si:coverageFactorXMLList>
+										<si:coverageProbabilityXMLList>0.95</si:coverageProbabilityXMLList>
+										<si:distributionXMLList>normal</si:distributionXMLList>
+									</si:expandedUncXMLList>
+									<!-- <si:expandedUncXMLList><si:uncertaintyXMLList>0.000000086</si:uncertaintyXMLList><si:coverageFactorXMLList>2</si:coverageFactorXMLList><si:coverageProbabilityXMLList>0.95</si:coverageProbabilityXMLList><si:distributionXMLList>normal</si:distributionXMLList></si:expandedUncXMLList> -->
+								</si:realListXMLList>
+							</dcc:quantity>
+						</dcc:list>
+					</dcc:data>
+				</dcc:result>
+			</dcc:results>
+		</dcc:measurementResult>
+	</dcc:measurementResults>
+</dcc:digitalCalibrationCertificate>
