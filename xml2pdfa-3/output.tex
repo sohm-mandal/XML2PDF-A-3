@@ -1,0 +1,107 @@
+
+        \documentclass[a4paper]{article}
+
+        % Load necessary packages for using Arial-like font
+        \usepackage[a-3u]{pdfx}
+        \usepackage{attachfile}
+        \usepackage{geometry}
+        \usepackage{fancyhdr}
+        \usepackage{graphicx}
+        \usepackage{color}
+        \usepackage{helvet}  % Helvetica clone
+        \usepackage{embedfile}
+        \usepackage{tabularx} % For the tabularx environment
+        \usepackage{siunitx}
+        \usepackage{lastpage} % For typesetting units
+        % Set Arial-like font as the default sans-serif font
+        \renewcommand{\familydefault}{\sfdefault}
+
+        \fancyhf{}
+        \fancyhead[L]{\includegraphics[width=0.18\textwidth,height=25.0mm]{logo.png} \\[3pt]}
+        \fancyhead[R]{
+            Date: {\today} \\
+            Next Calibration Date: 2022-03-21 \\
+            {Page \thepage} \\
+            Certificate Number: N21080387/D6.02c/C-06 \\[2pt]
+        }
+        \fancyfoot[L]{
+            \setlength{\tabcolsep}{1pt} % Adjusting column separation
+                \begin{tabularx}{\textwidth}{@{\extracolsep{0.001pt}} p{0.1\textwidth} X X X X X X X X}  % Adjusting column widths
+                    Head CFT: & & Calibrated By: & & Checked By: & & Scientist incharge: & \\
+                    & (Dr Sushil Kumar) & & (Sandhya M. Patel) & & (Saood Ahmad) & & (Anurag Gupta) \\
+                \end{tabularx}
+                \vspace{0.1 cm}
+        } 
+
+        \setlength{\headheight}{25mm}
+        \pagestyle{fancy}
+        \renewcommand{\headrulewidth}{0.8pt}
+        \renewcommand{\footrulewidth}{0.8pt}
+        \renewcommand{\familydefault}{\sfdefault}
+        \newcommand{\embedmyfile}[1]{\embedfile{#1}}
+
+        \begin{document}
+            \embedfile{attachment.xml}
+            \begin{center}
+                {\fontfamily{phv}\fontsize{18pt}{20pt}\selectfont\textbf{\textcolor{black}{\\[3pt]Calibration Certificate : DC Reference Standard}}}
+            \end{center}
+            
+            \vspace{2cm}  % Adding some vertical space
+            
+            \renewcommand{\arraystretch}{1.5} % Increasing row height
+            
+            \begin{center}
+                \setlength{\tabcolsep}{12pt} % Adjusting column separation
+                \begin{tabularx}{\textwidth}{@{\extracolsep{8pt}} p{0.4\textwidth} X}  % Adjusting column widths
+                    1. Calibrated for: & LF, HF Impedance and DC Metrology Section, CSIR-NATIONAL PHYSICAL LABORATORY \\
+                    & Dr K S Krishnan Marg \\
+                    & New Delhi \\
+                    & 110012 \\
+                    & Customer Reference note dated 15-07-2021 \\
+                    &  \\
+                    2. Description and Identification of instrument: & DC Reference Standard \\
+                    & 732B \\
+                    & Serial no.9130702 \\
+                    & \\
+                    3. Environmental Conditions:
+                    & Temperature: {$(25\pm1)C$} \\
+                    & Humidity: ({$50\pm10$})\% \\ 
+                    & \\
+                    4. Standard(s) Used: & Programmable Josephson Voltage Standard \\
+                    Associated Uncertainity: & string-manufacturer-measuringEquipment-1 \\
+                    & \\
+                    5. Traceability of standard(s) used: & Programmable Josephson Voltage Standard (Primary Standard)\\
+                    & \\
+                    6. Principle/ Methodology of Calibration: & The DC Reference Standard has been calibrated by comarison method with Programmable Josephson Voltage Standard as per calibration procedure no. \\
+                \end{tabularx}
+            \end{center}
+
+            \pagebreak
+            7. Measurements:   \\
+            \begin{center}
+                \begin{tabular}{|c|c|c|}
+\hline
+Nominal Value (in V) & Measured Value(in V) & Error(in V) \\
+\hline
+10.0 & 10.00003835 & 0.000000091 \\
+\hline
+1.018 & 1.01815396 & 0.000000086 \\
+\hline
+\end{tabular} \\
+            \vspace{0.5 cm}  
+            \end{center}
+            The report expanded uncertainity is at a coverage factor k + 2 which corresponds approximaltely 95.0\% for a normal distribution. \\
+            \\
+
+            \begin{flushleft}
+                \setlength{\tabcolsep}{1pt} % Adjusting column separation
+                \begin{tabularx}{\textwidth}{@{\extracolsep{8pt}} p{0.4\textwidth} X}  % Adjusting column widths
+                    8. Dates of Calibration: & 2021-09-21 to 2021-09-21 \\
+                    & \\
+                    9. Remarks: & (i) The DC Reference Standard has been calibrated \\
+                    & (ii) The noise of the DC Reference Standard is inclusive 
+                \end{tabularx}
+                \vspace{2 cm}
+            \end{flushleft}
+        \end{document}
+        
